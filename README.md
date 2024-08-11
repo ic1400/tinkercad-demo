@@ -4,7 +4,7 @@ Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding. To 
 
 ## Project Description
 
-This project is a demo of Tinkercad's capabilities. This project is a simple circuit that uses a `pushbutton` to control an LED. The circuit is powered by an Arduino Uno. The LED can operate in two modes: a `steady on` mode and a `blinking` mode. The mode is toggled based on the state of the `pushbutton`.
+This project is a demo of Tinkercad's capabilities with a simple circuit that uses a `pushbutton` to control an LED. The circuit is powered by an Arduino Uno. The LED can operate in two modes: a `steady on` mode and a `blinking` mode. The mode is toggled based on the state of the `pushbutton`.
 
 ### Operational modes
 
@@ -32,8 +32,8 @@ The components used in this project are:
 ## Instructions
 
 1. Connect the components as shown in the circuit diagram.
-2. Open the `Blinker` code in the Arduino IDE. The code is located in the `src` directory.
-3. Upload the code to the Arduino Uno.
+2. Copy the `src/blinker.cpp` code into the Tinkercad Arduino IDE.
+3. Upload the code to the Arduino Uno and click on `Start Simulation`.
 4. Press the `pushbutton` to toggle between the `steady on` and `blinking` modes.
 5. Observe the LED to see the mode change.
 
